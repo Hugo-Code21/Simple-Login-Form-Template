@@ -88,6 +88,11 @@ button {
 button:hover {
     background: #404040;
 }
+body.blog-page > button.back-link {
+    display: block;
+    width: fit-content;
+    margin: 24px 24px 0 auto;
+}
 .footer {
     padding: 14px 24px;
     border-top: 1px solid #ededed;
@@ -349,5 +354,21 @@ body.blog-page {
     }
     .story-row p:not(.eyebrow) {
         display: none;
+    }
+    .story-meta {
+        display: none;
+    }
+    .about-rail {
+        padding-top: 14px;
+    }
+    .topic-list {
+        gap: 6px;
+    }
+    .button {
+        padding: 7px 11px;
+        font-size: 0.8rem;
+        position: fixed;
+        bottom: 20px;
+        align-self: center;
     }
 }
